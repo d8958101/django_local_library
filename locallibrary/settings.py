@@ -21,7 +21,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #註解掉原本的SECRET_KEY，改成由系統環境去重新取得SECRET_KEY
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'n33o*yjq*ca-vm3qf5bx$6tf0_)qs-0r-wy=m5bm284bmp&!&6'
 import os
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
 
